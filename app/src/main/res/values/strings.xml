@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Nutri</string>
+    <string name="title_home">Home</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_goals">Goals</string>
+    <string name="title_history">History</string>
+    <string name="title_addItem">Add Item</string>
+    <string name="title_profile">Profile</string>
+
+    // Strings used for profile page
+    <string name="heading_profile">Your Profile</string>
+    <string name="heading_restrictions">Your Restrictions</string>
+    <string name="heading_information">Your Information</string>
+    <string name="info_never_leaves_device">Your information never leaves your device.</string>
+    <string name="label_height">Height</string>
+    <string name="label_weight">Weight</string>
+    <string name="label_sex">Sex</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="placeholder_height">180</string>
+    <string name="placeholder_weight">86</string>
+    <string name="placeholder_sex">Male</string>
+    <string-array name="sex_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    // Strings used for goals
+    <string name="heading_targets">Targets</string>
+    <string name="label_calories">Calories (kcal)</string>
+    <string name="label_sugar">Sugar (g)</string>
+    <string name="label_sodium">Sodium (mg)</string>
+    <string name="label_fat">Fat (g)</string>
+    <string name="label_protein">Protein (g)</string>
+    <string name="string_under">Under</string>
+    <string name="string_over">Over</string>
+    <string name="placeholder_calories">2000</string>
+    <string name="placeholder_sugar">30</string>
+    <string name="placeholder_sodium">300</string>
+    <string name="placeholder_fat">No goal</string>
+    <string name="placeholder_protein">60</string>
+
+    <string-array name="custom_item_unit_options">
+        <item>Liters (L)</item>
+        <item>Milliliters (mL)</item>
+        <item>Grams (g)</item>
+    </string-array>
+
+</resources>

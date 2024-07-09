@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.nutri.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.nutri.ui.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/navigation_addItem"
+        android:name="com.example.nutri.ui.addItem.AddItemFragment"
+        android:label="@string/title_addItem"
+        tools:layout="@layout/fragment_additem" />
+
+    <fragment
+        android:id="@+id/navigation_goals"
+        android:name="com.example.nutri.ui.goals.GoalsFragment"
+        android:label="@string/title_goals"
+        tools:layout="@layout/fragment_goals" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.nutri.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_addCustomItem"
+        android:name="com.example.nutri.ui.addItem.AddCustomItemFragment"
+        android:label="@string/title_addItem"
+        tools:layout="@layout/fragment_addcustomitem" />
+
+    <fragment
+        android:id="@+id/navigation_addPresetItem"
+        android:name="com.example.nutri.ui.addItem.AddPresetItemFragment"
+        android:label="@string/title_addItem"
+        tools:layout="@layout/fragment_addpresetitem" />
+</navigation>
